@@ -1,0 +1,40 @@
+.GenreBox-wrapper{
+text-align: left;
+display: flex;
+flex-direction: column;
+justify-content: left;
+}
+.GenreBox-wrapper h1{
+    margin: 0;
+    text-align: left;
+}
+.GenreBox{
+    box-sizing: border-box;
+    margin: 20px;
+    height: 150px;
+    /* width: fit-content; */
+    /* display: flex;
+    flex-direction: row; */
+    overflow-x:scroll;
+    /* overflow-y: hidden; */
+    scrollbar-width: 0;
+}
+.Genre-child{
+    box-sizing: border-box;
+    height: 150px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    scrollbar-width: 0;
+}
+.Genre-child::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.GenreBox::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+

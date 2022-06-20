@@ -1,0 +1,78 @@
+.NavBar{
+    color: var(--secondary-color);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-and-notification{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-and-notification div{
+    box-sizing: border-box;
+    margin: 10px;
+}
+.Search{
+    width: 85%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Search > div{
+    width: 80%;
+    height: 90%;
+    border: 2px solid var(--main-color);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.Search  div input{
+    justify-self: flex-start;
+    background-color: transparent;
+    width: 95%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 15px;
+    border: 0px ;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+.search-icon{
+    height: 95%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+input:focus{
+    outline-width: 0px;
+}
+.notification-user{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.notification-user div{
+    width: 50%;
+}
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+}

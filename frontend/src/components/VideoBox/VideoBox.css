@@ -1,0 +1,9 @@
+.VideoBox{
+    height: 150px;
+    width: 300px;
+    /* transition: all 0.4s; */
+}
+.VideoBox img{
+    width: 100%;
+}
+
